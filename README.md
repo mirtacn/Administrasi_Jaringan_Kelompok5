@@ -6,6 +6,7 @@
 | TUGAS 1 |  _[KLICK HERE](https://github.com/mirtacn/SysAdmin-3122500009/tree/main/Tugas_1)_ |
 | TUGAS 2 |  _[KLICK HERE](https://github.com/mirtacn/SysAdmin-3122500009/tree/main/Tugas_2)_ |
 | TUGAS 3 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_3)_ |
+| TUGAS 3 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_4)_ |
 
 ### ANGGOTA KELOMPOK
 | NAMA                          | NRP       |
