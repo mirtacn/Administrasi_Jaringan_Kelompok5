@@ -28,9 +28,9 @@ Internet berkembang pesat di seluruh dunia berkat kepemilikan global bersama, pe
 
 <hr>
 
-
-
-![height:1in](img/gambar_1.png)
+<p align="center">
+  <img src="img/gambar_1.png" alt="Ekosistem internet">
+</p>
 
 ## 2 Sudut Pandang Internet
 
