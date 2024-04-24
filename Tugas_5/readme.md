@@ -24,6 +24,7 @@
 | 5     | [Final Check All Services](#Final-Check-All-Services)                       |
 | 6     | [Test Email With Email Client - Thunderbird](#Thunderbird-Email-GUI-Client) |
 | 7     | [Konfigurasi roundcube](#Roundcube-Webmail)                                 |
+| 8     | [(Tambahan) Praktikum Mail Server Antar Kelompok](#Melanjutkan-setup-web-email-server) |
 
 ---
 
@@ -344,7 +345,7 @@ Bisa dilihat sudah tersambung ke NTP 0.id.pool.ntp.org, dan memiliki delay waktu
 
 2.  Melakukan Cek terhadap Layanan Posfix `telnet mail.kelompok5.local 25`
     <img src="img/75.png" width="78%" height="auto"><br>
-    Memeriksa apakah server mail.kelompok5.local dapat menerima koneksi pada port 25. Lalu menhalankan command `ehlo mail.kelompok5.local` yang digunakan untuk memberikan informasi tentang kemampuan server, seperti fitur-fitur yang didukung atau batasan konfigurasi.
+    Memeriksa apakah server mail.kelompok5.local dapat menerima koneksi pada port 25. Lalu menjalankan command `ehlo mail.kelompok5.local` yang digunakan untuk memberikan informasi tentang kemampuan server, seperti fitur-fitur yang didukung atau batasan konfigurasi.
 
 # Thunderbird Email GUI Client
 
@@ -395,14 +396,48 @@ Bisa dilihat sudah tersambung ke NTP 0.id.pool.ntp.org, dan memiliki delay waktu
 
 8.  Melakukan restart service apache2 --> `sudo systemctl restart apache2`
 9.  Mencoba membuka roundcube di web browser (domain/roundcube)
-    <img src="img/login.png" width="78%" height="auto"><br>
     <img src="img/home.png" width="78%" height="auto"><br>
 
 10. Mencoba send email
     User 1 mengirim email ke user mirta
     <img src="img/cekmil1.png" width="78%" height="auto"><br>
+    
     Pesan berhasil terkirim :
-    <img src="img/centang.png" width="78%" height="auto"><br>
+    <img src="img/centang.png" width="30%" height="auto"><br>
 
     User mirta mengecek email yang diterima :
     <img src="img/cekmil2.png" width="78%" height="auto"><br>
+
+
+# Melanjutkan setup web email server
+1. Mengubah network NAT menjadi Bridged Adapter dengan name Realtek USB FE Family Controller
+   ![alt text](img/pic84.png)
+   
+2. Mengubah IP menjadi 192.168.5.10 
+   ![alt text](img/pic85.png)
+   ![alt text](img/pic86.png)
+
+3. Mengubah file nano named.conf.options
+   ![alt text](img/pic87.png)
+   ![alt text](img/pic88.png)
+
+4. Mengubah file /etc/resolv.conf <br>
+    ![alt text](img/pic89.png)
+
+5. Melakukan pengecekkan dengan nslookup <br>
+    ![alt text](img/pic90.png)
+
+6. Melakukan setting WinBox
+   ![alt text](img/pic91.png)
+   
+7. Melakukan Testing atau uji coba
+   - Melakukan pengepingan pada detik.com
+   ![alt text](img/pic92.png)
+   - Melakukan pengepingan pada ip kelompok6
+   ![alt text](img/pic93.png)
+
+8. Melakukan pengiriman pesan antar kelompok dengan RoundCube
+   - Melakukan pengiriman pesan dari arsyita@mail.kelompok5.local ke iqbal@mail.kelompok6.local
+    ![alt text](img/pic94.jpg)
+   - Melakukan penerimaan pesan dari adam@mail.kelompok8.local ke arsyita@mail.kelompok5.local
+    ![alt text](img/pic95.png)
