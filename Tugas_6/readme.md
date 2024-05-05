@@ -1,19 +1,6 @@
 **Pengertian Web Server & Web Client**   
    Web client dan Web server berkomunikasi menggunakan protokol HTTP (HyperText Transfer Protocol). Web client adalah komputer yang tergabung dalam jaringan atauinternet yang meminta informasi. Untuk dapat mengakses web server, web client menggunakan aplikasi yang disebut Web browser. Web server adalah komputer yang tergabung dalam jaringan atau internet yang memberikan informasi.
 
-**Fungsi Web Server & Web Client**  
-- Fungsi Client :
-Client Fungsi utama Client adalah menghasilkan permintaan untuk berbagai layanan yang bersumber dari server. Client juga dapat dinonaktifkan sewaktu-waktu. Contoh klien adalah smartphone, desktop, laptop, dan lainnya.
-- Fungsi Web Server :
-    - Mentransfer data yang diminta user
-Biasanya, sebuah laman web terdiri dari berbagai macam informasi dalam berbagai bentuk, seperti teks, video, gambar, audio, atau dokumen. Berkas-berkas inilah yang nantinya akan dikirimkan ke browser-mu sesuai permintaan. Pada praktiknya langsung, web server akan merespon permintaan yang kamu tulis di address bar dan informasi yang kamu minta tadi akan ditampilkan ke browser-mu. Jika permintaanmu tidak bisa dicari, maka web server akan melakukan pengiriman balik berupa penolakan dengan cara memberikan informasi yang biasa dikenal dengan kode ‘404’, artinya kata kunci yang kamu cari tidak bisa ditemukan.
-    - Memeriksa keamanan dari permintaan HTTP
-Selain itu, web server berfungsi untuk memeriksa sistem keamanan dari request HTTP
-yang diminta oleh klien atau web browser. Web server menggunakan HTTP/HTTPS
-sebagai perantara untuk menghubungkan website dengan web server. Proses transfer
-data yang dilakukan bersifat privat dan tidak bisa diakses sembarangan oleh publik.
-
-
 **Cara kerja Web Server**
 
    ![alt text](img/carakerja.png) <br>
