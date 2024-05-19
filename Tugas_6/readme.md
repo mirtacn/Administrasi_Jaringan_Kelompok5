@@ -99,7 +99,7 @@ data yang dilakukan bersifat privat dan tidak bisa diakses sembarangan oleh publ
 `sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 ![alt text](img/5.jpg)
 
-- `sudo apt-get update`
+- `sudo apt-get update` <br>
 ![alt text](img/6.png)
 
 3. <h4>Install Docker Packages</h4>
@@ -107,7 +107,7 @@ data yang dilakukan bersifat privat dan tidak bisa diakses sembarangan oleh publ
 ![alt text](img/7.png)
 
 4. <h4>Start Docker Engine</h4>
-- `sudo service docker start`
+- `sudo service docker start` <br>
 ![alt text](img/8.png)
 
 5. <h4>Run a Container</h4>
