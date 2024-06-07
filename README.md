@@ -9,8 +9,10 @@
 | TUGAS 4 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_4)_ |
 | TUGAS 5 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_5)_ |
 | TUGAS 6 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_6)_ |
+| TUGAS 7 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_7)_ |
+| TUGAS Docker |  _[KLICK HERE](https://github.com/mirtacn/SysAdmin-3122500009/tree/main/Tugas_Docker)_ |
 
-### ANGGOTA KELOMPOK
+### ANGGOTA KELOMPOK :
 | NAMA                          | NRP       |
 | ----------------------------- | --------- |
 | [Arsyita Devanaya Arianto](http://github.com/Arsyitadevanaya)         | 3122500008 |
