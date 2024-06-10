@@ -10,7 +10,7 @@
 | TUGAS 5 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_5)_ |
 | TUGAS 6 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_6)_ |
 | TUGAS 7 |  _[KLICK HERE](https://github.com/mirtacn/Administrasi_Jaringan_Kelompok5/tree/main/Tugas_7)_ |
-| TUGAS Docker |  _[KLICK HERE](https://github.com/mirtacn/SysAdmin-3122500009/tree/main/TugasProject)_ |
+| TUGAS Docker |  _[KLICK HERE](https://github.com/mirtacn/SysAdmin-3122500009/tree/main/Tugas_Project_PBL)_ |
 
 ### ANGGOTA KELOMPOK :
 | NAMA                          | NRP       |
